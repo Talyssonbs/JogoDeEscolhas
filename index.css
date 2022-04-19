@@ -12,7 +12,9 @@
 }
 
 body {
-    background-image: url(./assustador.jpg);
+    width: 100%;
+    height: 100%;
+    background-image: url(./IMAGENS/assustador.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }

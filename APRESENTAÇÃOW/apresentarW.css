@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Sinopse {
+    position: relative;
+    text-align: center;
+    top: 25px;
+    color: rgb(255, 123, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Wolverine {
+    font-size: 75px;
+    color: rgb(255, 238, 0);
+    position: relative;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(../IMAGENS/wolverine\ comics.jpg);
+    background-size: cover;
+    background-position: 1px -230px;
+}
+
+.botao-próximo {
+    background-color: yellow;
+    color: black;
+    position: relative;
+    left: 627px;
+    top: 40px;
+    border-radius: 10px;
+}
+
+.botao-próximo:hover {
+    background-color: black;
+    color: yellow;
+}
