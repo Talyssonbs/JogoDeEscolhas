@@ -1,0 +1,26 @@
+.venceu {
+    font-size: 100px;
+    position: relative;
+    text-align: center;
+    color: rgb(255, 238, 2);
+    top: 50px;
+}
+
+body {
+    background-image: url(../APRESENTAÇÃOW/ImagensWolverine/vencedor);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ganhou {
+    position: relative;
+    left: 410px;
+    top: 27px;
+    background-color: black;
+    color: rgb(251, 255, 0);
+}
+
+.ganhou:hover {
+    background-color: rgb(255, 251, 0);
+    color: black;
+}

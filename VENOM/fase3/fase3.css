@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+li {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    width: 60%;
+    height: 100%;
+    background-image: url(../imagensVenom/venom5);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Pergunta3 {
+    font-size: 50px;
+    position: relative;
+    left: 490px;
+    color: rgb(255, 0, 0);
+}
+
+.enunciado3 {
+    color: rgb(117, 3, 3);
+    font-size: 50px;
+
+
+}
+
+.responder {
+    position: relative;
+    left: 270px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.responder:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}

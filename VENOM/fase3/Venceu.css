@@ -1,0 +1,26 @@
+.venceu {
+    font-size: 100px;
+    position: relative;
+    text-align: center;
+    color: rgb(156, 7, 7);
+    top: 50px;
+}
+
+body {
+    background-image: url(../imagensVenom/venom7);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ganhou {
+    position: relative;
+    left: 410px;
+    top: 27px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.ganhou:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}

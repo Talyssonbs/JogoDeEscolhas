@@ -1,0 +1,26 @@
+.venceu {
+    font-size: 100px;
+    position: relative;
+    text-align: center;
+    color: rgb(196, 4, 4);
+    top: 50px;
+}
+
+body {
+    background-image: url(../imagensOjusticeiro/venceu);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ganhou {
+    position: relative;
+    left: 410px;
+    top: 27px;
+    background-color: black;
+    color: rgb(56, 45, 45);
+}
+
+.ganhou:hover {
+    background-color: rgb(58, 58, 52);
+    color: black;
+}

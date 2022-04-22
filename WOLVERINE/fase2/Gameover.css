@@ -1,0 +1,26 @@
+.perdeu {
+    font-size: 100px;
+    position: relative;
+    text-align: center;
+    color: rgb(167, 14, 14);
+    top: 100px;
+}
+
+body {
+    background-image: url(../APRESENTAÇÃOW/ImagensWolverine/imagemGameOver.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fracassou {
+    position: relative;
+    left: 560px;
+    top: 27px;
+    background-color: black;
+    color: red;
+}
+
+.fracassou:hover {
+    background-color: red;
+    color: black;
+}

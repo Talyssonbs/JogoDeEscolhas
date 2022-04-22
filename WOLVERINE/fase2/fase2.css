@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+li {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    color: rgb(255, 7, 7);
+}
+
+body {
+    width: 60%;
+    height: 100%;
+    background-image: url(../APRESENTAÇÃOW/ImagensWolverine/i5671.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Pergunta2 {
+    font-size: 50px;
+    position: relative;
+    left: 490px;
+    color: rgb(255, 0, 0);
+}
+
+.enunciado {
+    color: rgb(4, 0, 255);
+    font-size: 40px;
+
+
+}
+
+.responder {
+    position: relative;
+    left: 270px;
+    background-color: yellow;
+    color: black;
+}
+
+.responder:hover {
+    background-color: black;
+    color: yellow;
+}
