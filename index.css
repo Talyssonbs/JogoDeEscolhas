@@ -40,16 +40,17 @@ body {
     justify-content: space-between;
     text-align: center;
     position: relative;
-    padding: 150px;
+    top: 8em;
     gap: 60px;
 }
 
 .WOLVERINE {
+    cursor: pointer;
     color: white;
     font-size: large;
     position: relative;
-    width: 200px;
-    background-color: transparent;
+    width: 320px;
+    background-color: yellow;
     block-size: 100px;
 }
 
@@ -59,11 +60,12 @@ body {
 }
 
 .O-JUSTICEIRO {
+    cursor: pointer;
     color: white;
     font-size: large;
     position: relative;
-    width: 200px;
-    background-color: transparent;
+    width: 316px;
+    background-color: rgb(77, 72, 72);
     block-size: 100px;
 }
 
@@ -73,11 +75,12 @@ body {
 }
 
 .VENOM {
+    cursor: pointer;
     color: white;
     font-size: large;
     position: relative;
-    background-color: yellow;
-    width: 200px;
+    background-color: rgb(0, 0, 0);
+    width: 316px;
     block-size: 100px;
 }
 
@@ -91,10 +94,63 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: fixed;
+    position:fixed;
     bottom: 0;
     width: 100%;
     height: 3em;
     background-color: rgba(255, 255, 255, 0.200);
     border: solid 0.5px black;
+}
+
+.avance {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    padding: 150px;
+    gap: 60px;
+}
+
+.passar {
+    color: white;
+    font-size: large;
+    position: relative;
+    left: 26rem;
+    top: 20.6rem;
+    background-color: red;
+    width: 200px;
+    block-size: 21px;
+    cursor: pointer;
+}
+
+.icones {
+    cursor: pointer;
+    width: 25%;
+    height: 2em;
+    left: 1em;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.home{
+    height: 5em;
+    bottom: 9px;
+    position: relative;
+}
+.back{
+    height: 4em;
+}
+
+.choice {
+    width: 25%;
+    display: flex;
+    position: relative;
+    bottom: 1em;
+    height: 1px;
+    font-size: 70px;
+    left: 6em;
+    color: red;
 }
