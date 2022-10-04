@@ -7,16 +7,20 @@
 .Sinopse {
     position: relative;
     text-align: center;
-    top: 25px;
+    top: 70px;
     color: rgb(255, 0, 0);
     font-family: 'Montserrat', sans-serif;
 }
 
 .venom {
-    font-size: 75px;
-    color: rgb(255, 255, 255);
+    width: 40%;
+    display: flex;
     position: relative;
-    text-align: center;
+    bottom: em;
+    height: 1px;
+    font-size: 70px;
+    left: 7.4em;
+    color: rgb(255, 255, 255);
 }
 
 body {
@@ -31,12 +35,32 @@ body {
     background-color: rgb(255, 255, 255);
     color: black;
     position: relative;
-    left: 627px;
-    top: 40px;
+    left: 45em;
+    top: 80px;
     border-radius: 10px;
 }
 
 .avançarGame:hover {
     background-color: black;
     color: rgb(255, 255, 255);
+}
+.icones {
+    cursor: pointer;
+    width: 25%;
+    height: 2em;
+    left: 1em;
+    top: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.home{
+    height: 5em;
+    bottom: 9px;
+    position: relative;
+}
+.back{
+    height: 4em;
 }

@@ -5,29 +5,32 @@
 }
 
 li {
+    top: 23px;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     position: relative;
-    color: rgb(255, 0, 0);
+    color: rgb(251, 255, 0);
 }
 
 body {
     width: 60%;
     height: 100%;
-    background-image: url(../imagensOjusticeiro/justiceiro5);
+    background-image: url(../imagensOjusticeiro/caveira2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.Pergunta2 {
+.Pergunta1 {
     font-size: 50px;
     position: relative;
     left: 490px;
     color: rgb(255, 0, 0);
 }
 
-.enunciado {
-    color: rgb(180, 0, 0);
+.enunciado1 {
+    position: relative;
+    top: 25px;
+    color: rgb(255, 0, 0);
     font-size: 50px;
 
 
@@ -36,11 +39,32 @@ body {
 .responder {
     position: relative;
     left: 270px;
-    background-color: rgb(68, 68, 58);
+    background-color: yellow;
     color: black;
 }
 
 .responder:hover {
     background-color: black;
-    color: rgb(68, 68, 57);
+    color: yellow;
+}
+
+.icones {
+    cursor: pointer;
+    width: 25%;
+    height: 0em;
+    left: 1em;
+    top: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.home{
+    height: 5em;
+    bottom: 9px;
+    position: relative;
+}
+.back{
+    height: 4em;
 }

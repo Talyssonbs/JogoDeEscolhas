@@ -1,5 +1,5 @@
 function verificaResposta() {
-    var resposta = prompt("O que Logan deve fazer ?");
+    var resposta = prompt("Qual a resposta ?");
     while (true) {
         if (resposta === "b") {
             window.location.href = "../fase2/fase2.html"
@@ -14,4 +14,12 @@ function verificaResposta() {
         }
 
     }
+}
+
+function Voltar() { 
+    window.location.href = "../APRESENTAÇÃOW/APRESENTAÇÃOW.html"
+}
+
+function Inicio() {
+    window.location.href = "/index.html"
 }

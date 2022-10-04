@@ -1,5 +1,5 @@
 function verificaResposta() {
-    var resposta = prompt("O que Venom deve fazer ?");
+    var resposta = prompt("Qual a resposta ?");
     while (true) {
         if (resposta === "a") {
             window.location.href = "../fase3/fase3.html"
@@ -14,4 +14,11 @@ function verificaResposta() {
         }
 
     }
+}
+function Voltar() { 
+    window.location.href = "../fase1/fase1.html"
+}
+
+function Inicio() {
+    window.location.href = "/index.html"
 }

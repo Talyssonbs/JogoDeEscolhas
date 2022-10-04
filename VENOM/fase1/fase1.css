@@ -5,16 +5,17 @@
 }
 
 li {
+    top: 23px;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     position: relative;
-    color: rgb(255, 255, 255);
+    color: rgb(251, 255, 0);
 }
 
 body {
     width: 60%;
     height: 100%;
-    background-image: url(../imagensVenom/venom2);
+    background-image: url(../imagensVenom/Venom3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -27,7 +28,9 @@ body {
 }
 
 .enunciado1 {
-    color: rgb(146, 0, 0);
+    position: relative;
+    top: 25px;
+    color: rgb(255, 0, 0);
     font-size: 50px;
 
 
@@ -36,11 +39,32 @@ body {
 .responder {
     position: relative;
     left: 270px;
-    background-color: rgb(255, 255, 255);
+    background-color: yellow;
     color: black;
 }
 
 .responder:hover {
     background-color: black;
-    color: rgb(255, 255, 255);
+    color: yellow;
+}
+
+.icones {
+    cursor: pointer;
+    width: 25%;
+    height: 0em;
+    left: 1em;
+    top: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.home{
+    height: 5em;
+    bottom: 9px;
+    position: relative;
+}
+.back{
+    height: 4em;
 }

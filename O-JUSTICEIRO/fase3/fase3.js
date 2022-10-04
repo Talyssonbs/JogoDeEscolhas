@@ -1,5 +1,5 @@
 function verificaResposta() {
-    var resposta = prompt("O que Frank deve fazer ?");
+    var resposta = prompt("Qual a resposta ?");
     while (true) {
         if (resposta === "a") {
             window.location.href = "./Venceu.html"
@@ -14,4 +14,11 @@ function verificaResposta() {
         }
 
     }
+}
+function Voltar() { 
+    window.location.href = "../fase2/fase2.html"
+}
+
+function Inicio() {
+    window.location.href = "/index.html"
 }

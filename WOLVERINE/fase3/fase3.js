@@ -15,3 +15,10 @@ function verificaResposta() {
 
     }
 }
+function Voltar() { 
+    window.location.href = "../fase2/fase2.html"
+}
+
+function Inicio() {
+    window.location.href = "/index.html"
+}
